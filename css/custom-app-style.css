@@ -1,0 +1,181 @@
+@import 'https://fonts.googleapis.com/css?family=Cofmortaa';
+
+body {
+    font-family: 'Cofmortaa', cursive;
+    background-image: url('../img/wildtextures.png');
+    background-size: cover;
+    color: #eee;
+}
+h1 {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 2.4rem;
+}
+p  {
+    font-size: 1.5rem;
+}
+.container {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    margin: 2% auto;
+    border-radius: 50%;
+    border: 5px solid #333333;
+}
+.control {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: rgb(68, 68, 68);
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    border: 5px solid #333333;
+}
+.row {
+    height: 50%;
+    width: 100%;
+}
+.button {
+    width: 50%;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+.button-red {
+    background: rgba(153, 0, 0, 1);
+    border-top-left-radius: 100%;
+}
+.red-active {
+    background: rgba(200,0,0, 1);
+    box-shadow: -9px -9px 16px 8px rgba(200,0,0, .85);
+}
+.button-yellow {
+    background: rgba(150, 150, 0, 1);
+    border-bottom-left-radius: 100%;
+}
+.yellow-active {
+    background: rgba(200,200,0, 1);
+    box-shadow: -9px 9px 16px 8px rgba(200,200,0, .85);
+}
+.button-green {
+    background: rgba(0, 150, 0, 1);
+    border-top-right-radius: 100%;
+}
+.green-active {
+    background: rgba(0,200,0, 1);
+    box-shadow: 9px -9px 16px 8px rgba(0,200,0, .85);
+}
+.button-blue {
+    background: rgba(0, 0, 150, 1);
+    border-bottom-right-radius: 100%;
+}
+.blue-active {
+    background: rgba(0,0,200, 1);
+    box-shadow: 9px 9px 16px 8px rgba(0,0,200, .85);
+}
+.center-text {
+    text-align: center;
+}
+.display {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 25%;
+    margin: 0 auto;
+    background-color: rgba(120,0,0,1);
+    color: rgba(200, 0, 0, 1);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.switch-block {
+    width: 100%;
+    text-align: center;
+}
+.button-control {
+    display: inline-block;
+    padding: 21px 7px;
+    margin: 5%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 5px #999;
+}
+.strict-block {
+    display: inline-block;
+}
+.strict-indication {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+}
+.strict-indication-active {
+    background: #cc0e05;
+}
+.button-control:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+.button-start {
+    background-color: #cc0e05;
+}
+.button-strict {
+    background-color: #e4cc29;
+}
+.button-start:hover {
+    background-color: #ae0e05;
+}
+.button-strict:hover {
+    background-color: #bba424;
+}
+.button-start:active {
+    background-color: #ae0e05;
+}
+.button-strict:active {
+    background-color: #bba424;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #777777;
+    height: 18px;
+    width: 92px;
+    padding: 3px 5px 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #ececec;
+    cursor: pointer;
+}
+span {
+    padding: 0 5px;
+}
+ .toggle {
+     position: absolute;
+     top: 1px;
+     left: 1px;
+     width: 45px;
+     height: 25px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     background: #eeeeee;
+     transition: left .4s;
+}
+.off {
+    left: 50px;
+    top: 1px;
+    background: #009600;;
+}
+.switch .on {
+    color: #009600;
+}
+
+
